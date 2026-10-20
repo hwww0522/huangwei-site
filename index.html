@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="YIE55TvQ9SXxiGMEtXx3mQ">
+<head data-page-node-id="ktCnAM13eF20R4KJf2lrrO">
+<meta charset="UTF-8" data-page-node-id="NcrdqK9wC1BOQlFrPxruGv">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="iH6Q0ytDD0s5IdK0eNGp0q">
+<title>黄微 · 首页</title>
+<meta name="description" content="黄微的个人网站" data-page-node-id="YptlGy4IFHWV70iOlBXR1F">
+<link rel="icon" href="assets/favicon.svg" data-page-node-id="fRfUemGwl6N49OApcW5rWS">
+<link rel="stylesheet" href="assets/style.css" data-page-node-id="K9YNDCqaRbmsbqVi0BDi3o">
+</head>
+<body data-page="home" class="photo-bg" data-page-node-id="eusWEvFDJHMSA2Rfak4eJ4">
+<div id="veil" data-page-node-id="XXNQ2mUTiA13IOBSRZDHQ4"></div>
+
+<nav data-page-node-id="ECt5QVZNx6CqPFrNC6tyBZ">
+  <div class="nav-in" data-page-node-id="vSgbqsCtIuKUYlRijKEegE">
+    <a class="brand" href="index.html" data-page-node-id="yVKHRGu8gf42aeeSAdg6WF"><svg viewBox="0 0 36 36" aria-hidden="true" data-page-node-id="Px1aH9QaKg5U2xEglUFCGA"><path fill="#DD2E44" d="M24 7c-3 0-3 1-6 1s-3-1-6-1c-4 0-9 2-9 9 0 11 6 20 10 20 3 0 3-1 5-1s2 1 5 1c4 0 10-9 10-20 0-7.001-5-9-9-9z" data-page-node-id="8aOcBKZ9L1o3JOFlP2WD2y"/><path fill="#77B255" d="M19 7s3-4 8-4c4 0 6 2 6 2s-4 3-7 3-7-1-7-1z" data-page-node-id="xrA0YcTqbygkwPbUZDWYDn"/><path fill="#662113" d="M18 10c-.552 0-1-.448-1-1 0-3.441 1.2-6.615 3.293-8.707.391-.391 1.023-.391 1.414 0s.391 1.024 0 1.414C19.986 3.427 19 6.085 19 9c0 .552-.448 1-1 1z" data-page-node-id="b9tMjCKA5K7XsYqkBjwd7r"/></svg>
+      黄微
+    </a>
+    <div class="nav-links" data-page-node-id="LHGvhIzF3ODHORNPBExq7j">
+      <a href="index.html" class="here" data-page-node-id="D3HV7Awd5gEoBwfIIPSHKE">首页</a>
+      <a href="about.html" data-page-node-id="1JrkiAEXucUoGQLoUy5kBp">关于我</a>
+      <a href="projects.html" data-page-node-id="fx2ARVigYE2LrRR0NjFNbZ">项目</a>
+      <a href="awards.html" data-page-node-id="9uDO9OVOxDn6Eyc3QSQxRt">获奖</a>
+      <a href="contact.html" data-page-node-id="PGConCuAQzxmcj0DcXtOnb">联系</a>
+    </div>
+  </div>
+</nav>
+
+<main data-page-node-id="RLaS6VZDHrn1pYZpH45ZJ4">
+  <!-- 首屏：左音乐滑块 + 右介绍 -->
+  <header class="hero" data-page-node-id="LoQv19PadUDCx26hfZUMCt">
+    <div class="wrap hero-grid" data-page-node-id="TDcOSx76NmePPBeLKQvroX">
+      <div class="music-card rv">
+        <img class="mc-art cursor-target" src="assets/img/apple-cirrus.jpg" alt="一颗苹果 · 五月天" data-cursor-label="一颗苹果 · 五月天">
+        <div class="mc-body">
+          <b class="mc-title">一颗苹果</b>
+          <span class="mc-artist">五月天</span>
+
+          <div class="mc-seek" id="mSeek" tabindex="0" role="slider" aria-label="播放进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-cursor-label="拖动进度">
+            <div class="mc-bar"><div class="mc-fill" id="mFill"></div><span class="mc-knob" id="mKnob"></span></div>
+            <div class="mc-times"><span id="mCur">0:00</span><span id="mDur">-0:00</span></div>
+          </div>
+
+          <div class="mc-ctl">
+            <button type="button" class="mc-skip" id="mBack" aria-label="后退 15 秒" data-cursor-label="后退">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg>
+            </button>
+            <button type="button" class="mc-play" id="mPlay" aria-label="播放 / 暂停" data-cursor-label="播放">
+              <svg class="ic-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>
+              <svg class="ic-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z"/></svg>
+            </button>
+            <button type="button" class="mc-skip" id="mFwd" aria-label="前进 15 秒" data-cursor-label="前进">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg>
+            </button>
+
+            <div class="mc-vol">
+              <button type="button" class="mc-vic" id="mMute" aria-label="静音 / 恢复音量" data-cursor-label="静音">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z" fill="currentColor" stroke="none"/><path d="M16 9.5a3.5 3.5 0 0 1 0 5"/><path d="M18.5 7a7 7 0 0 1 0 10"/></svg>
+              </button>
+              <div class="mc-volbar" id="mVol" tabindex="0" role="slider" aria-label="音量" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-cursor-label="音量">
+                <div class="mc-vfill" id="mVolFill"></div><span class="mc-vknob" id="mVolKnob"></span>
+              </div>
+            </div>
+          </div>
+
+          <a class="mc-src" href="https://m.kugou.com/share/song.html?chain=55VL120G6V2" target="_blank" rel="noopener">完整版 · 来源：酷狗音乐</a>
+        </div>
+        <!-- 音频源由 app.js 第 8 段统一创建（挂在 body 上），切页不断线 -->
+      </div>
+
+      <div class="hero-text rv" data-page-node-id="sWWNZRl8lBQ5rsnWRAra2Z">
+        <h1 data-page-node-id="GcsbaGEqhc145NTLaodogm">你好，我是<span class="name" data-page-node-id="n3p8AgeP7nOEmmONQD6tMq">黄微</span>。</h1>
+        <p class="hero-sub" data-page-node-id="znSdu1G6qLhPP9BhG3Hc5U">南京财经大学在读大三学生，计算机与人工智能专业</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- 文件夹导航 -->
+  <section class="folder-zone" data-page-node-id="4NBujmHqC5GDzOFHRjF4xu">
+    <div class="wrap" data-page-node-id="TPlhXNJs8t5C8wDWWFfJ3L">
+      <div class="zone-title rv" data-page-node-id="usjzT7poAmWvBfGOdPSd6I">
+        <h2 data-page-node-id="YAFHxH1QliN8aaW2PtQNBn">翻开看看</h2>
+        <span data-page-node-id="SqR4lqBOE3y9HLch7OEPnj">四个文件夹，装着不同的我</span>
+      </div>
+
+      <div class="folders" data-page-node-id="hkaQnOUeXXgAqrH9ztdWjy">
+        <a class="folder rv f-pink" href="about.html" data-page-node-id="XqrlHkIQmhe20mb9Daxb4Y">
+          <div class="f-tab" data-page-node-id="gI7vvjs9mkyjeoqgBCDdG4">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="rGqwsqgmk0T8SFO8UyiiDU"><circle cx="12" cy="8" r="4" data-page-node-id="Oz94aIKKkjQjgB8ELp4FLE"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" data-page-node-id="4HXfDfiJu5VyHHteZ0BJCn"/></svg>
+            关于我
+          </div>
+          <div class="f-back" data-page-node-id="HdLonMbgstMTKSv1eMzZjb"></div>
+          <div class="f-paper" data-page-node-id="cGQqlrw20BItLDEZPizz9E">
+            <div class="f-ico" data-page-node-id="PJWOhU2zVk88CNgZ7JA3JD">🎨</div>
+            <b data-page-node-id="Ad9rVusgJBCnBq2giqo6ZE">画画 · 旅行 · 志愿</b>
+            <p data-page-node-id="Oes1Ynf0COPeEzN83yDxuZ">喜欢画画和旅行，更喜欢在医院的走廊里帮上忙。</p>
+            <div class="dots" data-page-node-id="ccQaAUTO5kElv6SuK3Gk93"></div>
+          </div>
+          <div class="f-front" data-page-node-id="wBXgnx1FtEfAgLPP5KeM2L"></div>
+        </a>
+
+        <a class="folder rv f-green" href="projects.html" data-page-node-id="3noxkZ3mfaHQLTlGfv6Esx">
+          <div class="f-tab" data-page-node-id="3D2xjBDSSKBMDjw88NQM1c">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="sjFAZOFsmqtw6HvDRzMzT2"><path d="M3 7l9-4 9 4-9 4-9-4z" data-page-node-id="oJu7MmLTSLcoP7U795inQc"/><path d="M3 7v10l9 4 9-4V7" data-page-node-id="z0M4a3snfdBFVUEQ4hk2of"/></svg>
+            项目经历
+          </div>
+          <div class="f-back" data-page-node-id="dzUVFfjCCTVeV6gjSLMrEg"></div>
+          <div class="f-paper" data-page-node-id="6mCGn4KWWvjSFOAsF8VsTj">
+            <div class="f-ico" data-page-node-id="J1g3ktbutn97hRVGMZiQa6">🌾</div>
+            <b data-page-node-id="Bmx1rOzc7D6f3roeiWWInl">两段农业 AI 项目</b>
+            <p data-page-node-id="cQCSZxywlFNE8if19NkiJU">从算法攻坚到粮仓实地部署，指标都是跑出来的。</p>
+            <div class="dots" data-page-node-id="GrYvFeYbMX1SG5sUGGGgaN"></div>
+          </div>
+          <div class="f-front" data-page-node-id="0OulayxNj1URjO1kjzTJyW"></div>
+        </a>
+
+        <a class="folder rv f-lavender" href="awards.html" data-page-node-id="XQ2rKm1sjNoXPm0e4CHaFZ">
+          <div class="f-tab" data-page-node-id="P9EFeKNqTVRagSTWaNBdLv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="ru1ipwXi3zDdRQeWUQbQVw"><circle cx="12" cy="9" r="6" data-page-node-id="Sur2k7Fnz1gq5GFOolL3s8"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8" data-page-node-id="D9A7j4DkoYAK4NnJBTyyzS"/></svg>
+            获奖情况
+          </div>
+          <div class="f-back" data-page-node-id="B0JBWhzaFgxzykg7F4MjGr"></div>
+          <div class="f-paper" data-page-node-id="i6qJZEPQEBfRUiJaalpYkh">
+            <div class="f-ico" data-page-node-id="HTvyjGQkmoGMzZwQXAIwKk">⭐</div>
+            <b data-page-node-id="iiJ7bGQUmLIwgUAycRuTQR">奖学金与竞赛</b>
+            <p data-page-node-id="eTowGWdXeGKA7y0Yz2bXV9">多次学业优秀奖学金，国家级特等奖也在架上。</p>
+            <div class="dots" data-page-node-id="t8368LFzCAAfJwLEp3HjQW"></div>
+          </div>
+          <div class="f-front" data-page-node-id="pIm2wZM6akxGw9HULXJxNH"></div>
+        </a>
+
+        <a class="folder rv f-blue" href="contact.html" data-page-node-id="uU07icweC3ezs6NwB0q3PO">
+          <div class="f-tab" data-page-node-id="56794xQPWpsosS9kYlp2Es">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="AVWNufE40adwUgoHGtK12R"><path d="M4 6h16v12H4z" data-page-node-id="EXryqbtAogxwFAAWNhqLNW"/><path d="m4 7 8 6 8-6" data-page-node-id="08casv8mYaOZZ5xmsxJ9ol"/></svg>
+            联系方式
+          </div>
+          <div class="f-back" data-page-node-id="badfBcL12GJWeL4MghaXjY"></div>
+          <div class="f-paper" data-page-node-id="BAZNRdOkHVxsfyTdz9kGTF">
+            <div class="f-ico" data-page-node-id="I9xCjQqLfQbWqpgiJFdmFx">📮</div>
+            <b data-page-node-id="nzBg2L6JFNkIzu01f9xHYt">随时找我</b>
+            <p data-page-node-id="uQYRpJi37XHZ99TeWTn8rG">电话、邮箱、微信都在，聊聊未来吧。</p>
+            <div class="dots" data-page-node-id="wT7TbfExwAz5HkBgaEzRJb"></div>
+          </div>
+          <div class="f-front" data-page-node-id="hPKMHoJWuAmcAPQAazP1QP"></div>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer data-page-node-id="eGpR9MqckeBLQBZUL2aCGz">
+  <div class="wrap ft-min" data-page-node-id="b2Pd8nj6ppgo45WE9hrGm0"><svg viewBox="0 0 36 36" aria-hidden="true" data-page-node-id="x0MjBufVBxFSxDNAanVnZa"><path fill="#DD2E44" d="M24 7c-3 0-3 1-6 1s-3-1-6-1c-4 0-9 2-9 9 0 11 6 20 10 20 3 0 3-1 5-1s2 1 5 1c4 0 10-9 10-20 0-7.001-5-9-9-9z" data-page-node-id="5NzumEQvpAZCGabUkz7RFM"/><path fill="#77B255" d="M19 7s3-4 8-4c4 0 6 2 6 2s-4 3-7 3-7-1-7-1z" data-page-node-id="eCfDf8qbuboIvSPDHsnqqF"/><path fill="#662113" d="M18 10c-.552 0-1-.448-1-1 0-3.441 1.2-6.615 3.293-8.707.391-.391 1.023-.391 1.414 0s.391 1.024 0 1.414C19.986 3.427 19 6.085 19 9c0 .552-.448 1-1 1z" data-page-node-id="WcwiNSsV2O3XDrniLDdei8"/></svg></div>
+</footer>
+
+<div id="toast" data-page-node-id="tsgyHic2breln2fkOs2YWs"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
